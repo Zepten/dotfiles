@@ -13,7 +13,7 @@ sudo apt install stow
 2. Установить dotfiles из репозитория:
 
 ```bash
-cd ~ && git clone https://github.com/Zepten/dotfiles.git && stow -R -v -t ~ .
+cd ~ && git clone https://github.com/Zepten/dotfiles.git && cd ~/dotfiles && stow -R -v -t ~ .
 ```
 
 ## Выборочная установка
