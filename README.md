@@ -1,6 +1,6 @@
 # Мои dotfiles
 
-Для управления файлами конфигураций (dotfiles) используется GNU Stow
+Для управления файлами конфигураций (dotfiles) используется [GNU Stow](https://www.gnu.org/software/stow/)
 
 ## Установка
 
