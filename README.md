@@ -16,14 +16,6 @@ sudo apt install stow
 cd ~ && git clone https://github.com/Zepten/dotfiles.git && cd ~/dotfiles && stow -R -v -t ~ .
 ```
 
-## Выборочная установка
-
-Установить только zsh и tmux:
-
-```bash
-stow -R -v -t ~ zsh tmux
-```
-
 ## Удаление симлинков
 
 ```bash
