@@ -142,3 +142,10 @@ setopt hist_ignore_all_dups
 setopt hist_save_no_dups
 setopt hist_ignore_dups
 setopt hist_find_no_dups
+
+# fnm
+FNM_PATH="/home/zepten/.local/share/fnm"
+if [ -d "$FNM_PATH" ]; then
+  export PATH="/home/zepten/.local/share/fnm:$PATH"
+  eval "`fnm env`"
+fi
