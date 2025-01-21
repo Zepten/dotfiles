@@ -1,4 +1,7 @@
 gui:
+  expandFocusedSidePanel: true
+  expandedSidePanelWeight: 2
+  language: en
   # use the mocha catppuccin theme
   theme:
     activeBorderColor:
@@ -22,7 +25,10 @@ gui:
       - '#cdd6f4'
     searchingActiveBorderColor:
       - '#f9e2af'
+  showNumstatInFilesView: true
+
 git:
   paging:
     colorArg: always
     pager: delta -s --dark --paging=never --24-bit-color=never
+  parseEmoji: true
