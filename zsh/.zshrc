@@ -116,6 +116,9 @@ source $ZSH/oh-my-zsh.sh
 alias ls='eza --color=always --group-directories-first --icons=always $@'
 # alias lsa='exa --icons --color=always --group-directories-first -lah'
 
+# lazygit
+alias lg='lazygit'
+
 # tmux on startup
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
   tmux attach-session -t tmux || tmux new-session -s tmux
