@@ -119,6 +119,9 @@ alias ls='eza --color=always --group-directories-first --icons=always $@'
 # lazygit
 alias lg='lazygit'
 
+# lazydocker
+alias lzd='lazydocker'
+
 # tmux on startup
 if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
   tmux attach-session -t tmux || tmux new-session -s tmux
