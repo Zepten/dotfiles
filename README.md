@@ -21,7 +21,7 @@ cd ~ && git clone https://github.com/Zepten/dotfiles.git && mv ~/dotfiles ~/.dot
 3. Установить нужные модули командой `stow` из директории `~/.dotfiles`:
 
 ```bash
-stow -R -v git lazygit bash eza zsh tmux nvim poetry
+stow -R -v alacritty kitty git lazygit bash eza zsh tmux nvim poetry
 ```
 
 ## Удаление симлинков
@@ -29,5 +29,5 @@ stow -R -v git lazygit bash eza zsh tmux nvim poetry
 Удаление симлинков делается командой `stow` с флагом `-D` и списком модулей, симлинки к которым нужно удалить:
 
 ```bash
-stow -D -v git lazygit bash eza zsh tmux nvim poetry
+stow -D -v alacritty kitty git lazygit bash eza zsh tmux nvim poetry
 ```
