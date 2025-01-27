@@ -7,3 +7,14 @@ import = [
 
 [env]
 TERM = "xterm-256color"
+
+[window]
+dimensions = { columns = 100, lines = 30}
+decorations_theme_variant = "Dark"
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font", style = "Regular" }
+bold = { style = "Bold" }
+italic = { style = "Italic" }
+bold_italic = { style = "Bold Italic" }
+size = 16
