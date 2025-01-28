@@ -123,9 +123,9 @@ alias lg='lazygit'
 alias lzd='lazydocker'
 
 # tmux on startup
-if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
-  tmux attach-session -t tmux || tmux new-session -s tmux
-fi
+# if command -v tmux &> /dev/null && [ -z "$TMUX" ]; then
+#   tmux attach-session -t tmux || tmux new-session -s tmux
+# fi
 
 # Keybindings
 bindkey -e
